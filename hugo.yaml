@@ -1,4 +1,189 @@
 baseURL: ""
 languageCode: en-us
-title: Personal Blog
+title: Gabriel Muniz
 theme: PaperMod
+paginate: 5
+
+# Used to give instructions to web crawlers
+enableRobotsTXT: true
+
+# Include content marked as drafts in the site build
+buildDraft: true
+
+# Controls contents with a future date to be included or not on the build
+buildFuture: true
+
+# Contents with dates before the current will not be included in the site build
+buildExpired: false
+
+# Do not pluralize titles, like Post -> Posts
+pluralizeListTitles: false
+
+enableEmoji: true
+
+minify:
+  disableXML: true
+
+# defaultContentLanguage: en
+# defaultContentLanguageInSubdir: true
+
+params:
+  env: production
+  title: Gabriel Muniz
+  # Shown when the website is posted on socials
+  # description:
+
+  # keywords:
+  author: Gabriel Muniz
+  # Image shown in socials (like Discord)
+  # images:
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "whatsapp", "discord"]
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  # See https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#comments
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  ShowToc: true
+  TocOpen: false
+  # New, from PaperModX
+  TocSide: left
+  # Enable KaTeX on every page globally. See blog post about setting up site
+  math: true
+  # Without this, archive doesn't show all pages
+  # See https://github.com/adityatelange/hugo-PaperMod/issues/912
+  # And https://github.com/adityatelange/hugo-PaperMod/commit/fc87fc3a29e8e515dff866159601a734e3ad4a2f
+  # Note from https://github.com/adityatelange/hugo-PaperMod/issues/702 that post must have date to be archived
+  ShowAllPagesInArchive: true
+
+  # Necessary for post nav links to show up on /posts and /projects
+  # https://github.com/adityatelange/hugo-PaperMod/issues/940
+  mainSections:
+    - posts
+    - projects
+
+  assets:
+    # Disables highlight.js, using Hugo Chroma instead
+    # https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+    # Note: Do not enable this. May not work correctly due to some code theme changes made in or around
+    # https://github.com/jesse-wei/jessewei.dev-PaperMod/commit/bcadfdde8e12a2a9f9ed853f9939695797b31739
+    disableHLJS: true
+    # disableFingerprinting: true
+
+    # https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#adding-custom-favicons
+    # static/ {favicon.ico, favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png, safari-pinned-tab.svg} automatically detected
+    favicon: "images/logo.svg"
+
+  # Top left logo and name shown on pages
+  label:
+    text: Gabriel Muniz
+    icon: images/logo.svg
+    iconHeight: 25
+
+  profileMode:
+    enabled: true
+    title: Gabriel Muniz
+    subtitle: This is a subtitle for gabriel muniz
+    imageUrl: "images/profile-photo.png"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: Profile photo
+    buttons:
+      - name: Projects
+        url: /projects/
+      - name: Posts
+        url: /posts/
+      - name: Tags
+        url: tags/
+
+  socialIcons:
+    # - name: cv
+    #   url: ""
+    - name: github
+      url: "https://github.com/gabrielh-muniz"
+    - name: linkedin
+      url: ""
+    - name: email
+      url: "gabrielmuniiz@gmail.com"
+
+  cover:
+    linkFullImages: true
+    hidden: false
+    # hiddenInList: false
+    # hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 2
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 3
+    - identifier: search
+      name: 
+      url: /search/
+      weight: 4
+
+pygmentUseClasses: true
+pygmentsCodefences: true
+
+markup:
+  tableOfContents:
+    # Without this, Hugo ToC doesn't show h4 and higher
+    # https://github.com/alex-shpak/hugo-book/issues/52
+    endLevel: 6
+
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    # highlight.js also doesn't use line numbers by default.
+    # The rationale is that doing so improves readability
+    # (https://highlightjs.readthedocs.io/en/latest/line-numbers.html).
+    # Therefore, I disable it by default.
+    # Note: It's possible to enable it on a specific code block by specifying
+    # ``` {lineNos=true}
+    # ```
+    lineNos: false
+    lineNumbersInTable: true
+    # false means use external CSS file
+    noClasses: false
+    noHl: false
+    # style: gruvbox
+    tabWidth: 2
