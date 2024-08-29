@@ -31,12 +31,12 @@ params:
   env: production
   title: Gabriel Muniz
   # Shown when the website is posted on socials
-  # description:
+  description: Aspiring backend developer with a passion for building innovative solutions. Welcome to my website!
 
-  # keywords:
+  keywords: [Gabriel Muniz, Blog, Portfolio, Computer Science, Mathematics, Software, Developer]
   author: Gabriel Muniz
   # Image shown in socials (like Discord)
-  # images:
+  images: ["images/logo.svg"]
   defaultTheme: auto
   disableThemeToggle: false
   ShowShareButtons: true
@@ -93,7 +93,7 @@ params:
   profileMode:
     enabled: true
     title: Gabriel Muniz
-    subtitle: This is a subtitle for gabriel muniz
+    subtitle: Student, backend developer — building the future one line at a time.
     imageUrl: "images/profile-photo.png"
     imageWidth: 180
     imageHeight: 180
@@ -112,7 +112,7 @@ params:
     - name: github
       url: "https://github.com/gabrielh-muniz"
     - name: linkedin
-      url: ""
+      url: "www.linkedin.com/in/gabriel-muniz-494349315"
     - name: email
       url: "gabrielmuniiz@gmail.com"
 
