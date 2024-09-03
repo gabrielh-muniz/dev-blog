@@ -118,9 +118,9 @@ params:
 
   cover:
     linkFullImages: true
-    hidden: false
-    # hiddenInList: false
-    # hiddenInSingle: true
+    hidden: true
+    hiddenInList: false
+    hiddenInSingle: true
 
   fuseOpts:
     isCaseSensitive: false
