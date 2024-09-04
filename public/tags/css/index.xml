@@ -2,22 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CSS on Gabriel Muniz</title>
-    <link>/tags/css/</link>
+    <link>//localhost:1313/tags/css/</link>
     <description>Recent content in CSS on Gabriel Muniz</description>
     <image>
       <title>Gabriel Muniz</title>
-      <url>/images/logo.svg</url>
-      <link>/images/logo.svg</link>
+      <url>//localhost:1313/images/logo.svg</url>
+      <link>//localhost:1313/images/logo.svg</link>
     </image>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guess the Number Game</title>
+      <link>//localhost:1313/projects/guess-number/</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/guess-number/</guid>
+      <description>A simple web-based game where the player tries to guess a randomly generated number within a specified range.</description>
+    </item>
     <item>
       <title>Radial Progress Bar</title>
-      <link>/projects/radial-progress-bar/</link>
+      <link>//localhost:1313/projects/radial-progress-bar/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>/projects/radial-progress-bar/</guid>
+      <guid>//localhost:1313/projects/radial-progress-bar/</guid>
       <description>This project involves creating a dynamic progress bar using HTML, CSS, and JavaScript.</description>
     </item>
   </channel>
