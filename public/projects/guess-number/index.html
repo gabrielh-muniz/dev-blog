@@ -74,6 +74,23 @@
 
 
   
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2E7QBXHEZD"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2E7QBXHEZD');
+        }
+      </script>
+    
+  
 
 <meta property="og:title" content="Guess the Number Game" />
 <meta property="og:description" content="A simple web-based game where the player tries to guess a randomly generated number within a specified range." />
@@ -553,7 +570,32 @@
     </li>
 </ul>
 
-  </footer>
+  </footer><div class="giscus_comments">
+  <script src="https://giscus.app/client.js" data-repo="gabrielh-muniz/gabrielh-muniz.github.io"
+    data-repo-id="R_kgDOMpvlSw" data-category="General" data-category-id="DIC_kwDOMpvlS84CiOUG" data-mapping="pathname"
+    data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
+    data-theme="noborder_dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+    </script>
+</div>
+
+<script async>
+  
+  
+
+  
+  document.querySelector('#theme-toggle').addEventListener('click', () => {
+    let g = document.querySelector('iframe.giscus-frame')
+    if (g) {
+      g.contentWindow.postMessage({
+        giscus: {
+          setConfig: {
+            theme: localStorage.getItem('pref-theme') ? ((localStorage.getItem('pref-theme') === 'dark') ? 'light' : 'noborder_dark') : (document.body.className.includes("dark") ? 'light' : 'noborder_dark')
+          }
+        }
+      }, 'https://giscus.app');
+    }
+  })
+</script>
 </article>
     </main>
     
