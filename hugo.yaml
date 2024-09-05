@@ -21,6 +21,8 @@ pluralizeListTitles: false
 
 enableEmoji: true
 
+googleAnalytics: G-2E7QBXHEZD
+
 minify:
   disableXML: true
 
