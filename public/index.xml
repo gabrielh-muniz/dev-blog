@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social Profile Links</title>
+      <link>//localhost:1313/projects/social-profile-links/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/social-profile-links/</guid>
+      <description>This is a solution to the Social links profile challenge on Frontend Mentor.</description>
+    </item>
     <item>
       <title>Guess the Number Game</title>
       <link>//localhost:1313/projects/guess-number/</link>
