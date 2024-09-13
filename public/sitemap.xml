@@ -2,25 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/projects/blog-card-preview/</loc>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/css/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/html/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/js/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/projects/social-profile-links/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/social-profile-links/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/guess-number/</loc>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Card Preview</title>
+      <link>//localhost:1313/projects/blog-card-preview/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/blog-card-preview/</guid>
+      <description>This is a solution to the blog card preview challenge on Frontend Mentor.</description>
+    </item>
     <item>
       <title>Social Profile Links</title>
       <link>//localhost:1313/projects/social-profile-links/</link>
